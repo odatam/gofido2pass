@@ -16,6 +16,14 @@ Tested with HyperFIDO Pro Mini, Yubikey 5 but should work with all compatible FI
 ```
 (default output in base58, use -hex to output with an hex string)
 
+## DEMOS
+
+- With a website : GMAIL
+![GOFIDO2PASS with GMAIL](https://github.com/odatam/gofido2pass/raw/main/demos/gofido2pass_gmail.gif "GMAIL")
+
+- With pinentry in a terminal (GPG to decrypt/encrypt a file)
+![GOFIDO2PASS with PINENTRY](https://github.com/odatam/gofido2pass/raw/main/demos/gofido2pass_pinentry.gif "PINENTRY (GPG)")
+
 ## Context menu with key shortcut
 
 - To show a dialog in graphical desktop, gofido2pass uses Zenity tool (debian : apt install zenity)
