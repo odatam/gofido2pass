@@ -76,7 +76,7 @@ func getAssertion(device *libfido2.Device, rpId string, credId []byte, cdh []byt
         &libfido2.AssertionOpts{
             Extensions: []libfido2.Extension{libfido2.HMACSecretExtension},
             HMACSalt:   salt,
-            UP:         libfido2.False,
+            UP:         libfido2.True, // doesn't work if False with Yubikey ?
         },
     )
     if err != nil {
