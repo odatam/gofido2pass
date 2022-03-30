@@ -19,10 +19,14 @@ Tested with HyperFIDO Pro Mini, Yubikey 5 but should work with all compatible FI
 ## DEMOS
 
 - With a website : GMAIL
+
 ![GOFIDO2PASS with GMAIL](https://github.com/odatam/gofido2pass/raw/main/demos/gofido2pass_gmail.gif "GMAIL")
 
 - With pinentry in a terminal (GPG to decrypt/encrypt a file)
+
 ![GOFIDO2PASS with PINENTRY](https://github.com/odatam/gofido2pass/raw/main/demos/gofido2pass_pinentry.gif "PINENTRY (GPG)")
+
+Without copy to clipboard to stay away from clipboard & clipboard manager history.
 
 ## Context menu with key shortcut
 
