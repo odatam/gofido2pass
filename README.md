@@ -35,7 +35,7 @@ Tested with HyperFIDO Pro Mini, Yubikey 5 but should work with all compatible FI
 - Copy gofido2pass application and gofido2pass.sh to a directory (example $HOME/scripts)
 
 - Go to Keyboard configuration and add application shortcut for gofido2pass.sh script
- (verify path for gofido2pass application in gofido2script : default to ~/scripts/gofido2pass)
+ (verify path for gofido2pass application in gofido2pass.sh : default to ~/scripts/gofido2pass)
  
 - Type your keyboard shortcut to test
 
