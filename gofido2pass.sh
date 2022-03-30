@@ -8,7 +8,7 @@ sleep 0.2
 
 OPTIONS=`~/scripts/gofido2pass -l | tr '\n' ' '`
 
-TEXT=`zenity --hide-header --column=name --list $OPTIONS --height=400`
+TEXT=`zenity --hide-header --title="GOFIDO2PASS" --text="Select passphrase name :" --column=name --list $OPTIONS --height=400`
 
 if [ "$TEXT" = "" ]; then
 	notify-send -t 20 "Cancel" "Cancel !" --icon=dialog-error
